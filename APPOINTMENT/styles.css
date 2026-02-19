@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+nav{
+    background-image:linear-gradient(to right, #a5fea8af, #09780f);
+}
+li{
+    list-style: none;
+    padding:10px;
+    margin-right:10px;
+    font-size:18px;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.my-btn{
+    width: 200px;
+    height:50px;
+    border:1px solid black;
+    background-color: rgb(242, 208, 156);
+    font-weight:bold;
+}
+h1, p{
+    padding-top:10px;
+}
+.main {
+    color: #3083b7;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.log-form {
+    width:100%;
+}
+.form-wrapper .row {
+    margin-bottom: 15px;
+}
+.form-wrapper {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #a5fea8; 
+    box-shadow: 0 8px 8px #09780f;
+    border-radius: 10px;
+    padding: 40px;
+}
+input, textarea {
+    width:100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    color: #6b6767;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+} 
+.submit-btn .btn{
+    width:50%;
+    background-color: #22d52b;
+    padding: 12px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight:bold;
+}
